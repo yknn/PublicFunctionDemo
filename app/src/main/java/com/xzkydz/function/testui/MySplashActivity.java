@@ -8,9 +8,19 @@ import com.xzkydz.function.splash.SplashActivity;
  */
 public class MySplashActivity extends SplashActivity {
 
+
     @Override
     public Class<?> getNavigationActivity() {
         return MyNavigationActivity.class;
+    }
+
+
+    @Override
+    public void setShowContent() {
+        super.setShowContent();
+        setAppName("我是APP名称");
+        setLawContent("我是法律内容");
+        setVersionName("我是版本号");
     }
 
 }

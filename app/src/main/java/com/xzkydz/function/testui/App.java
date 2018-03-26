@@ -10,16 +10,13 @@ import com.xzkydz.function.style.AppStyle;
 
 public class App extends KyApp {
 
-
     // 设置APP的名称、颜色
     @Override
     public void setAppStyleColor() {
         super.setAppStyleColor();
-
         //APP 名称
         AppStyle.appNameId = R.string.app_name;
         //APP 主题色
         AppStyle.appToolbarColor = R.color.colorPrimary;
     }
-
 }
